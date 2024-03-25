@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'regular';
+    src: url(../fonts/Besley-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url(../fonts/Besley-Bold.ttf);
+}

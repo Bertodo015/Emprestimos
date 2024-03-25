@@ -1,0 +1,6 @@
+@media screen and (max-width: 600px){
+    #tipo-cliente > label, #tipo-cliente > input[type=range] {
+        display: block;
+        text-align: center;
+    }
+}

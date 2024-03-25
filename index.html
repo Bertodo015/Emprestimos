@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Empréstimos</title>
+</head>
+<body>
+    <div id="container">
+        <h2>Simule seu empréstimo aqui</h2>
+
+        <input 
+            type="number" 
+            id="valor-emprestado" 
+            placeholder="Informe aqui o valor desejado"
+            step="1"
+            min="500"
+        >
+        <span id="valor-capital-abaixo"></span>
+
+        <span id="qtd-parcelas">Quantidade de parcelas</span>
+        <input 
+            type="number" 
+            id="parcelas" 
+            value="1" 
+            step="1" 
+            min="1" 
+            max="24"
+        >
+
+        <span id="cliente">Tipo de cliente:</span>
+
+        <div id="tipo-cliente">
+
+            <input type="radio" name="clienteStandard" id="clienteStandard">
+            <label for="clienteStandard">Standard</label>
+        
+            <input type="radio" name="clientePlatinum" id="clientePlatinum">
+            <label for="clientePlatinum">Platinum</label>
+            
+            <input type="radio" name="clienteGold" id="clienteGold">
+            <label for="clienteGold">Gold</label>
+        </div>
+
+        <span id="montante"></span>
+        <span id="valor-parcelado"></span>
+
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
